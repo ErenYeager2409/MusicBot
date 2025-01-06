@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 
 server.mjs
-import { createServer } from "nodejs"
+import { createServer } from nodejs
 
 const server = createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "text/plain" });
