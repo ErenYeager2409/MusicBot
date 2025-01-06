@@ -7,31 +7,31 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID =("")
-API_HASH = ("")
+API_ID =("29422639")
+API_HASH = ("e21bccfd64a01c5762ce81c77379dc7f")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = ("")
+BOT_TOKEN = ("7801447321:AAHRP8Vh_CkYcwPmfmRM-5TtGEGXbgymzsA")
 
 # Get Your bot username
-BOT_USERNAME = ("")
+BOT_USERNAME = ("ShadowEminenceRobot")
 
 # Get Your repo
 REPO_LINK = getenv("REPO_LINK" , "https://t.me/BRANDED_PAID_CC")
 
 # Don't Add style font 
-BOT_NAME = ("")
+BOT_NAME = ("Shadow Eminence")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = ("")
+MONGO_DB_URI = ("mongodb+srv://Aaru:AaruAaru@cluster0.qthztcs.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = 
+LOGGER_ID = -1002276053555
 
 # Get this value from @CrewMusic_bot on Telegram by /id
-OWNER_ID = 
+OWNER_ID = 6849813637
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
